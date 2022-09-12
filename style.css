@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+
+}
+header{
+padding: 30px 100px;    
+}
+#spotlight{
+    height: 100vh;
+    background-image: url(/background.png);
+    background-color: #020202;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: aliceblue;
+}
+.inner-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container{
+    width: 120px
+}
+.logo{
+    width : 100%
+}
+.main-heading{
+    font-size: 72px;
+    width: 80%;
+    text-align: center;
+    line-height: 88px;
+    display: inline;
+    background: -webkit-linear-gradient(#FADFD6, #c9a1a1, #FFD4C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.auto-input{
+    color: #FF632F;
+    background-color: #f6603a7e;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+}
+.typed-cursor{
+    color: #FF632F;
+}
+.inner-main p{
+    margin-top: 32px;
+    font-size: 20px;
+}
+.access{
+    width: 264px;
+    height: 64px;
+    border: 0;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 32px;
+}
+.arrow{
+    margin-top: 32px;
+}
