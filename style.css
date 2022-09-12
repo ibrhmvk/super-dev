@@ -23,7 +23,7 @@ header {
 #spotlight {
     height: 100vh;
     background-image: url(/images/background-image/background1.png);
-    background-color: #020202;
+    background-color: #070200;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -96,11 +96,9 @@ header {
 }
 
 #about {
-    background-color: #020202;
+    background-color: #070200;
     color: aliceblue;
-
-
-}
+    }
 
 .top {
     display: flex;
@@ -229,3 +227,65 @@ hr {
     line-height: 28px;
     color: #423636;
 }
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        padding : 50px
+    }
+    .middle{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .top{
+        flex-direction: column;
+
+    }
+    .left-about{
+        width: 100%;
+        font-size: 32px;
+    }
+    .right-about{
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top : 20px;
+    }
+    .company-img{
+        display: none;
+    }
+    .main-heading{
+        font-size: 44px;
+        line-height: 52px;
+        
+    }
+    #spotlight{
+        background-image: url(/images/background-image/background2.png);
+        background-color: #070200;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .auto-input{
+        padding: 0;
+    }
+    .inner-main p{
+        display: none;
+    }
+    .access{
+        margin-top: 140px;
+    }
+    .top-heading h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .first p, .second p {
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+    .top-heading{
+        align-items: center;
+    }
+    .lengthy{
+        align-items: flex-start;
+    }
+  }
