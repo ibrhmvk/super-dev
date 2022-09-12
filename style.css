@@ -111,12 +111,18 @@ header {
 .left-about {
     font-size: 48px;
     width: 30%;
+    background: -webkit-linear-gradient(#FADFD6, #8399ca, #FFD4C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .right-about {
     font-size: 20px;
     line-height: 32px;
     width: 43%;
+    background: -webkit-linear-gradient(#FADFD6, #cdbbbb, #FFD4C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .middle {
